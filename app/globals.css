@@ -111,13 +111,16 @@ body {
   background-image: radial-gradient(
       circle at top left,
       rgba(245, 211, 122, 0.25),
-      transparent 30%
+      transparent 20%
     ),
     url("/images/bg.png");
   background-size: cover;
   background-position: center center;
 }
 
+.scl_btn {
+  display: flex !important;
+}
 /* hamburger menu */
 /* --- react-burger-menu base tweaks --- */
 .bm-burger-button {

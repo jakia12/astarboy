@@ -5,11 +5,11 @@ import Marquee from "./Marqee";
 
 export default function Hero() {
   return (
-    <section className="hero-space relative ">
+    <section className="hero-space relative pt-[30px] lg:pt-0 2xl:pt-0">
       {/* top hairline */}
       <div className="absolute inset-x-0 top-0 h-px bg-[#1e1e1e]" />
 
-      <div className="relative wrapper px-4 sm:px-6 lg:px-8">
+      <div className="relative wrapper ">
         <div className="grid items-center gap-10 py-16 sm:py-20 lg:py-28 lg:grid-cols-2">
           {/* Left: text */}
           <div className="text-left">

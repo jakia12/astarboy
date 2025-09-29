@@ -18,7 +18,7 @@ const ITEMS = [
 
 export default function ListedOn() {
   return (
-    <section className="relative bg-[#090909] text-white" id="listed-on">
+    <section className="relative bg-[#090909] text-white" id="exchanges">
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14">
         <div className="mb-6 sm:mb-8 text-center">
           <h2 className="mt-1 text-lg font-semibold sm:text-4xl dSans mb-[70px] ">

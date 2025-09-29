@@ -17,7 +17,7 @@ const NAV = [
   { label: "HOW TO BUY", href: "#how-to-buy" },
   { label: "TOKENOMICS", href: "#tokenomics" },
   { label: "CHART", href: "#chart" },
-  { label: "GALLERY", href: "#gallery" },
+  //   { label: "GALLERY", href: "#gallery" },
   { label: "EXCHANGES", href: "#exchanges" },
 ];
 
@@ -52,7 +52,7 @@ export default function Header() {
         "
       >
         {/* brand - small, tight tracking */}
-        <div className="lg:bg-[#141414] w-[96%] lg:py-[6px] py-[30px]">
+        <div className="lg:bg-[#141414] w-[93%] lg:py-[6px] py-[30px]">
           <div className="flex  items-center  gap-[100px] wrapper  ">
             <Link
               href="/"
@@ -81,7 +81,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="ml-2 lg:flex items-center gap-1.5 hidden">
+        <div className="ml-2 lg:flex items-center gap-1.5 hidden mr-[12px]">
           <IconSquare href="https://t.me/" aria="Telegram">
             <FaTelegramPlane size={12} />
           </IconSquare>
@@ -102,7 +102,7 @@ export default function Header() {
             styles={burgerStyles}
             itemListElement="div"
           >
-            <div className="text-sm font-semibold tracking-widest text-white">
+            <div className="text-sm font-semibold tracking-widest text-white mb-[30px]">
               ASTERBOY
             </div>
 
@@ -117,26 +117,7 @@ export default function Header() {
               </Link>
             ))}
 
-            <details className="mb-3">
-              <summary className="cursor-pointer list-none rounded px-2 py-1 text-gray-200 hover:bg-white/5">
-                EXCHANGES
-              </summary>
-              <div className="mt-2 ml-2 flex flex-col">
-                {EXCHANGES.map((ex) => (
-                  <Link
-                    key={ex.label}
-                    href={ex.href}
-                    target="_blank"
-                    onClick={() => setOpen(false)}
-                    className="mb-2 rounded px-2 py-1 text-gray-300 hover:bg-white/5"
-                  >
-                    {ex.label}
-                  </Link>
-                ))}
-              </div>
-            </details>
-
-            <div className="mt-4 flex items-center gap-3">
+            <div className="mt-4 flex items-center gap-3 scl_btn">
               <Link
                 href="https://t.me/"
                 target="_blank"

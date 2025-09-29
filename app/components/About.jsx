@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <section className="w-full bg-black text-white">
-      <div className="wrapper px-4 py-8">
+    <section className="w-full bg-black text-white py-16 sm:py-20">
+      <div className="wrapper ">
         {/* Top link */}
         <div className="text-xs text-zinc-400 mb-2 text-[14px] dMono-light ">
           About
