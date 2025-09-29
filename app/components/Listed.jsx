@@ -28,7 +28,7 @@ export default function ListedOn() {
 
         {/* grid with centered boxes */}
         <div className="relative mx-auto max-w-[400px]">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2  gap-6 place-items-center">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2  gap-6 place-items-center">
             {ITEMS.map(({ label, href, src }) => (
               <Link
                 key={label}
