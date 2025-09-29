@@ -8,7 +8,7 @@ const CONTRACT = "0xYOUR_BSC_CONTRACT_ADDRESS";
 const steps = [
   {
     title: "Create a wallet",
-    desc: "Install a web3 wallet like MetaMask or Trust Wallet. Secure your seed phrase somewhere offline.",
+    desc: "Install a web3 wallet like MetaMask or Trust Wallet. Write your seed phrase on paper and store it offline.",
     cta: { label: "Get MetaMask", href: "https://metamask.io/" },
     icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
@@ -18,7 +18,7 @@ const steps = [
   },
   {
     title: "Add BSC network",
-    desc: "In your wallet, add Binance Smart Chain (BNB Smart Chain). Use chainId 56 and currency BNB.",
+    desc: "In your wallet, add Binance Smart Chain (BNB Smart Chain). Chain ID: 56, Currency: BNB, Explorer: bscscan.com.",
     cta: {
       label: "Add BSC (guide)",
       href: "https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain",
@@ -31,7 +31,7 @@ const steps = [
   },
   {
     title: "Fund with BNB",
-    desc: "Buy BNB on an exchange (Binance, Coinbase, etc.) and withdraw to your wallet on BSC (BEP-20).",
+    desc: "Buy BNB on a centralized exchange and withdraw to your wallet on BSC (BEP-20). Leave a little extra for gas.",
     cta: { label: "Buy BNB", href: "https://www.binance.com" },
     icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
@@ -40,9 +40,9 @@ const steps = [
     ),
   },
   {
-    title: "Open PancakeSwap",
-    desc: "Go to PancakeSwap and connect your wallet on BSC. We’ll trade BNB → $STAR.",
-    cta: { label: "PancakeSwap", href: "https://pancakeswap.finance/swap" },
+    title: "Open Aster DEX",
+    desc: "Go to Aster DEX and connect your wallet on BSC. You’ll be swapping BNB → $STAR.",
+    cta: { label: "Open Aster DEX", href: "#" }, // ← replace with official link when ready
     icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
         <path d="M5 4h14v2H5zM5 11h14v2H5zM5 18h14v2H5z" />
@@ -51,7 +51,7 @@ const steps = [
   },
   {
     title: "Import token",
-    desc: "Click “Select a token” and paste the contract below. Verify name/symbol before importing.",
+    desc: "Click “Select token” and paste the contract below. Verify the name/symbol, then import $STAR.",
     cta: null,
     icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
@@ -66,7 +66,7 @@ const steps = [
   },
   {
     title: "Swap & set slippage",
-    desc: "Choose BNB → $STAR, enter amount, and confirm. If it fails, try 1–3% slippage and raise gas slightly.",
+    desc: "Choose BNB → $STAR, enter the amount, and confirm. If a swap fails, try 1–3% slippage and slightly higher gas. ($STAR uses a 2/2 tax with reflections.)",
     cta: null,
     icon: (
       <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor">
@@ -98,11 +98,12 @@ export default function HowToBuy() {
               Guide
             </p>
             <h2 className="mt-1 lg:text-[63px] font-semibold text-[43px] dSans uppercase">
-              How to buy on BSC
+              How to buy $STAR on BSC
             </h2>
             <p className="mt-3 max-w-2xl text-sm text-white/70 dMono-light">
               Follow these steps to purchase{" "}
-              <span className="text-white">$STAR</span> on Binance Smart Chain.
+              <span className="text-white">$STAR</span> on Binance Smart Chain
+              using Aster DEX.
             </p>
           </div>
 
@@ -170,11 +171,11 @@ export default function HowToBuy() {
         {/* Quick buttons */}
         <div className="mt-10 flex flex-wrap items-center gap-3">
           <Link
-            href="https://pancakeswap.finance/swap"
+            href="#"
             target="_blank"
             className="inline-flex items-center gap-2 rounded-md bg-white px-4 py-2 text-sm font-medium text-black hover:bg-white/90"
           >
-            Trade on PancakeSwap
+            Trade on Aster DEX
           </Link>
           <Link
             href={`https://bscscan.com/token/${CONTRACT}`}
