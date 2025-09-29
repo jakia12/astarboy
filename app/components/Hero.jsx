@@ -70,7 +70,7 @@ export default function Hero() {
           priority
           src="/images/run.png" // second image file
           alt="Asterboy running"
-          className="absolute right-[17%] top-[-95%] w-[70%] max-w-[20%] opacity-80 hidden sm:block"
+          className="absolute right-[17%] bottom-[10%] w-[70%] max-w-[20%] opacity-80 hidden sm:block"
         />
 
         {/* Front character (main glowing) */}

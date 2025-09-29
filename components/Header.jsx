@@ -52,7 +52,7 @@ export default function Header() {
         "
       >
         {/* brand - small, tight tracking */}
-        <div className="lg:bg-[#141414] w-[93%] lg:py-[6px] py-[30px]">
+        <div className="lg:bg-[#141414] lg:w-[93%] 2xl:w-[98%] lg:py-[6px] py-[30px]">
           <div className="flex  items-center  gap-[100px] wrapper  ">
             <Link
               href="/"
@@ -151,8 +151,8 @@ function IconSquare({ href, aria, children }) {
       aria-label={aria}
       className="
         inline-flex h-[34px] w-[34px] items-center justify-center
-        rounded-[3px]  bg-[#1e1e1e]
-        text-gray-200 hover:text-white hover:bg-[#161616]
+        bg-[#1e1e1e]
+        text-gray-200 hover:text-white hover:bg-[#141414]
         transition
       "
     >
