@@ -18,7 +18,7 @@ const NAV = [
   { label: "TOKENOMICS", href: "#tokenomics" },
   { label: "CHART", href: "#chart" },
   //   { label: "GALLERY", href: "#gallery" },
-  { label: "EXCHANGES", href: "#exchanges" },
+  { label: "✦EXCHANGES", href: "#exchanges" },
 ];
 
 /* --- exchanges dropdown items --- */
