@@ -25,7 +25,7 @@ export default function Tokenomics() {
           <h2 className="mt-1 lg:text-[63px] font-semibold text-[43px] dSans uppercase">
             Tokenomics
           </h2>
-          <p className="mt-3 max-w-2xl text-sm text-white/70">
+          <p className="mt-3 max-w-2xl text-sm text-white/70 dMono-light">
             Transparent, fair launch on BSC. Built for community and longevity.
           </p>
         </div>

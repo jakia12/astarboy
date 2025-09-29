@@ -152,7 +152,7 @@ export default function HowToBuy() {
                 <Link
                   href={s.cta.href}
                   target="_blank"
-                  className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-white/90 underline-offset-4 hover:underline"
+                  className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-white/90 underline-offset-4 hover:underline dMono-regular"
                 >
                   {s.cta.label}
                   <svg
@@ -173,14 +173,14 @@ export default function HowToBuy() {
           <Link
             href="#"
             target="_blank"
-            className="inline-flex items-center gap-2 rounded-md bg-white px-4 py-2 text-sm font-medium text-black hover:bg-white/90"
+            className="inline-flex items-center gap-2 rounded-md bg-white px-4 py-2 text-sm font-medium text-black hover:bg-white/90 dMono-regular"
           >
             Trade on Aster DEX
           </Link>
           <Link
             href={`https://bscscan.com/token/${CONTRACT}`}
             target="_blank"
-            className="inline-flex items-center gap-2 rounded-md border border-white/20 bg-white/5 px-4 py-2 text-sm font-medium text-white hover:bg-white/10"
+            className="inline-flex items-center gap-2 rounded-md border dMono-regular border-white/20 bg-white/5 px-4 py-2 text-sm font-medium text-white hover:bg-white/10"
           >
             View on BscScan
           </Link>

@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-x-0 top-0 h-px bg-[#1e1e1e]" />
 
       <div className="relative wrapper ">
-        <div className="grid items-center gap-10 py-16 sm:py-20 lg:py-28 lg:grid-cols-2">
+        <div className="grid items-center gap-10 py-16 sm:pt-20 lg:pt-28 lg:grid-cols-2">
           {/* Left: text */}
           <div className="text-left">
             <span className="mb-4 inline-flex items-center gap-2 rounded-full  px-3 py-1  tracking-wide text-white/70 dMono-light text-[14px]">
@@ -36,7 +36,7 @@ export default function Hero() {
             <div className="mt-7 flex flex-wrap items-center gap-3">
               <Link
                 href="#buy"
-                className="group inline-flex items-center gap-2 rounded-md bg-transparent border border-white/40 px-4 py-2 text-sm font-medium transition hover:bg-white/90 text-white"
+                className="group inline-flex items-center gap-2 rounded-md bg-transparent border border-white/40 px-4 py-2 text-sm font-medium transition  text-white dMono-light"
               >
                 APE $STAR on Perp
                 <span>
@@ -46,7 +46,7 @@ export default function Hero() {
 
               <Link
                 href="#community"
-                className="inline-flex items-center gap-2 rounded-md border border-white/20 bg-white px-4 py-2 text-sm font-medium text-black hover:bg-white/10"
+                className="inline-flex items-center gap-2 rounded-md border border-white/20 bg-white px-4 py-2 text-sm font-medium text-black  dMono-light"
               >
                 Join{" "}
                 <span>

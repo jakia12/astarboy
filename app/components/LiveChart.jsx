@@ -27,13 +27,13 @@ export default function LiveChart() {
         {/* Header row */}
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <p className="text-xs uppercase tracking-widest text-white/60 dMono-ligh">
+            <p className="text-xs uppercase tracking-widest text-white/60 dMono-light">
               Live
             </p>
             <h2 className="mt-1 lg:text-[63px] font-semibold text-[43px] dSans uppercase">
               Price Chart
             </h2>
-            <p className="mt-3 max-w-2xl text-sm text-white/70">
+            <p className="mt-3 max-w-2xl text-sm text-white/70 dMono-light">
               Watch <span className="text-white">$STAR</span> live on
               Dexscreener (BSC).
             </p>
@@ -41,13 +41,15 @@ export default function LiveChart() {
 
           <div className="mt-2 sm:mt-0">
             <div className="flex items-center gap-2 rounded-md border border-white/15 bg-white/5 px-3 py-2">
-              <span className="text-xs text-white/60">Contract</span>
+              <span className="text-xs text-white/60 dMono-light">
+                Contract
+              </span>
               <code className="truncate text-[13px] font-mono text-white/90">
                 {CONTRACT}
               </code>
               <button
                 onClick={copy}
-                className="ml-2 rounded bg-white px-2 py-1 text-xs font-medium text-black hover:bg-white/90"
+                className="ml-2 rounded bg-white px-2 py-1 text-xs font-medium text-black hover:bg-white/90 dMono-light"
               >
                 {copied ? "Copied" : "Copy"}
               </button>

@@ -58,7 +58,7 @@ export default function About() {
         <div className="mt-7 flex flex-wrap items-center gap-3">
           <Link
             href="#buy"
-            className="group inline-flex items-center gap-2 rounded-md bg-transparent border border-white/40 px-4 py-2 text-sm font-medium transition hover:bg-white/90 text-white"
+            className="group inline-flex items-center gap-2 rounded-md bg-transparent border border-white/40 px-4 py-2 text-sm font-medium transition  text-white dMono-light"
           >
             APE $STAR on Perp
             <span>
@@ -68,7 +68,7 @@ export default function About() {
 
           <Link
             href="#community"
-            className="inline-flex items-center gap-2 rounded-md border border-white/20 bg-white px-4 py-2 text-sm font-medium text-black hover:bg-white/10"
+            className="inline-flex items-center gap-2 rounded-md border border-white/20 bg-white px-4 py-2 text-sm font-medium text-black  dMono-light"
           >
             Join{" "}
             <span>

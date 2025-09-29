@@ -11,9 +11,11 @@ export default function Footer() {
           <img src="/images/ft.png" alt="" className="w-[500px]" />
         </div>
         {/* Title */}
-        <h2 className="lg:text-[65px] text-[45px] font-semibold">Join Us</h2>
+        <h2 className="lg:text-[65px] text-[45px] font-semibold dSans uppercase">
+          Join Us
+        </h2>
         {/* Subtitle */}
-        <p className="mt-2 text-sm text-white/70 max-w-md">
+        <p className="mt-2 text-sm text-white/70 max-w-md dMono-light">
           Be part of the $STAR community and stay updated.
         </p>
 
@@ -39,7 +41,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/20 text-center py-[30px]">
-        <p className="mt-6 text-lg text-white/50 ">© $STAR 2025</p>
+        <p className="mt-6 text-lg text-white/50 dMono-light">© $STAR 2025</p>
       </div>
     </footer>
   );

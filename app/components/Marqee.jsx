@@ -20,7 +20,7 @@ export default function Marquee() {
           {loop.map((txt, i) => (
             <span
               key={i}
-              className="inline-flex items-center  px-4 py-1 text-xs sm:text-sm tracking-wide text-zinc-200"
+              className="inline-flex items-center  px-4 py-1 text-xs sm:text-sm tracking-wide text-zinc-200 dMono-regular"
             >
               {txt}
             </span>

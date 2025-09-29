@@ -52,7 +52,7 @@ export default function ListedOn() {
                     height={64}
                     className="h-14 w-14 object-contain mb-3"
                   />
-                  <span className="text-sm font-medium text-white">
+                  <span className="text-sm font-medium text-white dMono-regular">
                     {label}
                   </span>
                 </div>
