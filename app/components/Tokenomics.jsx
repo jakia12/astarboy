@@ -111,10 +111,6 @@ export default function Tokenomics() {
             </button>
 
             {/* small footnote */}
-            <p className="mt-4 text-xs text-white/50 dMono-light">
-              Notes: If anti-bot/anti-snipe is enabled during launch, taxes may
-              be temporarily higher in the first blocks.
-            </p>
           </div>
 
           {/* right: image */}

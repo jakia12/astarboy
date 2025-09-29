@@ -91,11 +91,6 @@ export default function LiveChart() {
         </div>
 
         {/* Tip */}
-        <p className="mt-3 text-xs leading-6 text-white/50">
-          Tip: If the chart shows a different token, double-check the{" "}
-          <strong>PAIR</strong> address (LP pair) and the{" "}
-          <strong>CONTRACT</strong> above. The embed uses the pair address.
-        </p>
       </div>
     </section>
   );
